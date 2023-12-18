@@ -34,3 +34,32 @@ Welcome to the YouTube Clone project! This project aims to replicate the basic f
 3. Install dependencies:
    ```bash
    npm install
+
+   Configuration
+1.Set up environment variables:
+Create a .env file in the root of the project.
+Add the following variables and provide appropriate values:
+PORT=3000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+Running the Application
+1.Start the backend server:
+npm run server
+
+2.Start the frontend development server:
+npm run client
+
+3.Open your browser and visit http://localhost:3000 to view the application.
+
+Contributing
+We welcome contributions! If you'd like to contribute to the project, please follow the guidelines in CONTRIBUTING.md.
+
+License
+This project is licensed under the MIT License.
+
+Acknowledgments
+Special thanks to [Third-Party Library Name] for [specific functionality].
+Hat tip to anyone whose code was used or inspired.
+
+
